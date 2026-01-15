@@ -20,6 +20,8 @@ API: http://localhost:8000
 
 
 Примеры запросов (Windows / PowerShell) :
+
+
 Создать видео:
 
 ```powershell
@@ -62,5 +64,9 @@ Invoke-RestMethod `
 -Body (@{ status = "transcoded" } | ConvertTo-Json)
 ```
 Таблица videos создаётся автоматически при старте приложения
+
+
 Возможные статусы: new, transcoded, recognized.
+
+
 duration передаётся в формате ISO 8601
