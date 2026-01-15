@@ -1,4 +1,3 @@
-# app/models/video.py
 import enum
 from datetime import datetime, timedelta
 
